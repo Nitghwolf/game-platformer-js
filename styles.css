@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.titleText{
+    font-size: 18pt;
+    background-color: grey;
+    width: 5%;
+    padding: 10pt;
+    text-align: center;
+    margin-top: 10%;
+    position: relative;
+}
+
+.rightButton{
+    font-size: 20pt;
+    padding: 10pt;
+}
+
+#hero{
+    width: 576px;
+    height: 384px;
+    position: relative;
+    top: 0px;
+    left: -96px;
+    transform: scaleX(-1);
+}
+
+.heroContainer{
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 64px;
+}
+
+#fullscreenButton{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+#canvas{
+    background-color: antiquewhite;
+}
+
+#jumpBlock{
+    width: 144px;
+    height: 144px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+#jumpImg{
+    position: absolute;
+    top: -144px;
+    left: -144px;
+    width: 864px;
+    height: 576px;
+    transform: scaleX(-1);
+}
+
+#jumpBorder{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 140px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+}
+
+#hitBlock{
+    width: 144px;
+    height: 144px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+#hitImg{
+    position: absolute;
+    top: -452px;
+    left: -442px;
+    width: 864px;
+    height: 576px;
+    transform: scaleX(-1);
+}
+
+#hitBorder{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 140px;
+    height: 140px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+}
+
+#background{
+    position: absolute;
+    bottom: 64px;
+    left: 0;
+    width: 100%;
+}
